@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Main Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="maxTemperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windSpeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+                
+                </ul>
+            </div>
+        </nav>
+     <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+        <img srcset="Resources/assets/images/Fig3.png 200w,
+             Resources/assets/images/Fig3.png 800w"
+     sizes="(max-width: 600px) 200px,
+            800px" src="Resources/assets/images/Fig3.png" class="img" alt="Fig3">
+      </div>
+   </div>
+    <h1>Cloudiness</h1>
+<p>Most cities that are cloudy, interestingly, are located in the southern hemisphere. Whether at the equator or at the poles, latitude is not related to whether a place has no clouds or not.</p>   
+<div class="col-md-3">
+        <a href="maxtemperature.html"><img srcset="Resources/assets/images/Fig1.png 50w,
+             Resources/assets/images/Fig1.png 800w"
+     sizes="(max-width: 600px) 50px,
+            800px src="Resources/assets/images/Fig1.png" class="img-thumbnail" alt="Fig1"></a>
+      </div>
+      <div class="col-md-3">
+       <a href="humidity.html"><img srcset="Resources/assets/images/Fig2.png 50w,
+             Resources/assets/images/Fig2.png 800w"
+     sizes="(max-width: 600px) 50px,
+             800px src="Resources/assets/images/Fig2.png" class="img-thumbnail" alt="Fig2"></a>
+      </div>
+      <div class="col-md-3">
+         <img srcset="Resources/assets/images/Fig3.png 50w,
+             Resources/assets/images/Fig3.png 800w"
+     sizes="(max-width: 600px) 50px,
+             800px src="Resources/assets/images/Fig3.png" class="img-thumbnail" alt="Fig3" style="border:2px solid blue">
+      </div>
+      <div class="col-md-3">
+        <a href="windspeed.html"><img srcset="Resources/assets/images/Fig4.png 50w,
+             Resources/assets/images/Fig4.png 800w"
+     sizes="(max-width: 600px) 50px,
+            800px src="Resources/assets/images/Fig4.png" class="img-thumbnail" alt="Fig4"></a>
+      </div>
+</body>
+</html>
